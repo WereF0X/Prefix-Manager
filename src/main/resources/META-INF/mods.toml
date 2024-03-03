@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="prefix_manager"
+version="1.0.0"
+displayName="Prefix Manager"
+updateJSONURL="https://discord.gg/PeWHbKqkcj"
+displayURL="https://discord.gg/PeWHbKqkcj"
+logoFile="logo.png"
+credits="The_WereF0X"
+authors="The_WereF0X"
+description="Set a prefix with /setprefix, remove one using /resetprefix."
+
+[[dependencies.prefix_manager]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

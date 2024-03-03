@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Set a prefix with /setprefix, remove one using /resetprefix."
+  }
+}

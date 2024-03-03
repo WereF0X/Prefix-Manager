@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "command",
+  "definition": {
+    "commandName": "prefixmanager:setprefix",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"entity\"><field name=\"name\">player</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">prefix</field><statement name=\"args\"><block type=\"string\"><field name=\"type\">word</field><field name=\"name\">color</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">PrefixCreate</field></block></statement></block></statement></block></statement></block></next></block></xml>"
+  }
+}

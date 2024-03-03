@@ -1,0 +1,272 @@
+{
+  "mod_elements": [
+    {
+      "name": "FileWrite",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "file_write",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/procedures/FileWriteProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Files"
+    },
+    {
+      "name": "FileSync",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "file_sync",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/procedures/FileSyncProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Files"
+    },
+    {
+      "name": "PrefixCreate",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prefix_create",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/procedures/PrefixCreateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prefix Management"
+    },
+    {
+      "name": "PrefixReset",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prefix_reset",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/procedures/PrefixResetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Prefix Management"
+    },
+    {
+      "name": "SetPrefix",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_prefix",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/SetPrefixCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "ResetPrefix",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_prefix",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/ResetPrefixCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "Alias1",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alias_1",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/Alias1Command.java"
+        ]
+      },
+      "path": "~/Commands/Aliases"
+    },
+    {
+      "name": "Alias2",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alias_2",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/Alias2Command.java"
+        ]
+      },
+      "path": "~/Commands/Aliases"
+    },
+    {
+      "name": "ReloadPrefix",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reload_prefix",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/ReloadPrefixCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "Alias3",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alias_3",
+      "metadata": {
+        "files": [
+          "src/main/java/fox/mods/prefixmanager/command/Alias3Command.java"
+        ]
+      },
+      "path": "~/Commands/Aliases"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "createdFile",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "prefixColorAppliesToUsername",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "playerPrefix",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Files",
+        "children": []
+      },
+      {
+        "name": "Prefix Management",
+        "children": []
+      },
+      {
+        "name": "Commands",
+        "children": [
+          {
+            "name": "Aliases",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "prefix_manager",
+    "modName": "Prefix Manager",
+    "version": "1.0.0",
+    "description": "Set a prefix with /setprefix, remove one using /resetprefix.",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/PeWHbKqkcj",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "updateURL": "https://discord.gg/PeWHbKqkcj",
+    "modPicture": "minecraft_title",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X",
+    "modElementsPackage": "fox.mods.prefixmanager",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
